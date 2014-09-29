@@ -1,0 +1,26 @@
+/******************************************************************
+Site Name: 
+Author: 
+
+Stylesheet: Super Large Monitor Stylesheet
+
+You can add some advanced styles here if you like. This kicks in
+on larger screens.
+
+******************************************************************/
+
+body {
+	font-size: 125%;
+}
+
+.wrap {
+	@include container(1440px);
+}
+
+#main {
+	@include span(9 of 12);
+}
+
+.sidebar {
+	@include span(3 of 12 last);
+}
